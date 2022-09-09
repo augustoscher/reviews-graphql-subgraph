@@ -1,0 +1,34 @@
+{
+  "name": "reviews-graphql-subgraph",
+  "version": "1.0.0",
+  "description": "Review Domain Graph Service. It's part of Edge GraphQL.",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">= 16"
+  },
+  "repository": "git@github.com:augustoscher/reviews-graphql-subgraph.git",
+  "author": "Augusto S. Scher <augusto@jusbrasil.com.br>",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon",
+    "lint": "eslint --ext .js,.ts .",
+    "test": "yarn test"
+  },
+  "dependencies": {
+    "@apollo/subgraph": "^2.1.1",
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
